@@ -1,0 +1,48 @@
+# Protected Files and Folders
+# These files/folders should NOT be modified by code generation
+
+# shadcn/ui components - these are protected
+components/ui/**
+src/components/ui/**
+
+# VibeStack badge - protected from modification
+src/components/vibestack-badge.tsx
+
+# Configuration files that should remain stable
+package.json
+package-lock.json
+tsconfig.json
+tsconfig.app.json
+tsconfig.node.json
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+eslint.config.js
+index.html
+
+# Build artifacts
+dist/**
+build/**
+.next/**
+node_modules/**
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git files
+.git/**
+.gitignore
+
+# IDE files
+.vscode/**
+.idea/**
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
