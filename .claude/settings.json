@@ -1,0 +1,13 @@
+{
+  "projectId": "e505d1ba-4f03-46ca-b7b8-099a1a0cc0ab",
+  "webhookUrl": "https://social-oranges-enter.loca.lt/api/claude-code/progress",
+  "hooks": {
+    "enabled": true,
+    "events": [
+      "SessionStart",
+      "SessionEnd",
+      "PreToolUse",
+      "PostToolUse"
+    ]
+  }
+}
